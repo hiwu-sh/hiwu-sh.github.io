@@ -52,7 +52,7 @@
       tagQuality: "Quality",
       tagAnalytics: "Analytics",
       tagInventory: "Inventory",
-      storePlaceholderCta: "App Store link on request",
+      storePlaceholderCta: "App Store link coming soon!",
 
       servicesTitle: "Trading & digital services",
       servicesSubtitle: "We support international trade — and build software that makes it easier.",
@@ -141,7 +141,7 @@
       tagQuality: "质检",
       tagAnalytics: "数据",
       tagInventory: "库存",
-      storePlaceholderCta: "App Store 链接可咨询获取",
+      storePlaceholderCta: "App Store 链接即将推出！",
 
       servicesTitle: "贸易与数字化服务",
       servicesSubtitle: "我们支持国际贸易，也打造让流程更轻松的软件。",
