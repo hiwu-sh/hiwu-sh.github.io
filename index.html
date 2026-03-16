@@ -1,9 +1,374 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Hello World Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hi 5 Shanghai International Trading Co. Ltd.</title>
+    <meta
+      name="description"
+      content="Hi 5 Shanghai International Trading Co. Ltd. — app-focused international trading company in Shanghai. We build mobile applications and support global import & export."
+    />
+
+    <meta property="og:title" content="Hi 5 Shanghai International Trading Co. Ltd." />
+    <meta
+      property="og:description"
+      content="App-focused international trading company in Shanghai. Mobile applications + global import & export."
+    />
+    <meta property="og:type" content="website" />
+
+    <link rel="icon" href="images/Preta.png" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <h1>Hello World</h1>
+    <a class="skip-link" href="#main" data-i18n="skipToContent">Skip to content</a>
+
+    <header class="site-header" role="banner">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="#top" aria-label="Hi 5 home">
+          <img
+            class="brand__logo"
+            src="images/Preta.png"
+            alt="Hi 5 logo"
+            width="44"
+            height="44"
+            decoding="async"
+          />
+          <span class="brand__name">Hi 5</span>
+        </a>
+
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="navLinks">
+          <span class="nav__toggleBars" aria-hidden="true"></span>
+          <span class="sr-only" data-i18n="toggleMenu">Toggle menu</span>
+        </button>
+
+        <div class="nav__links" id="navLinks">
+          <a class="nav__link" href="#about" data-i18n="navAbout">About</a>
+          <a class="nav__link" href="#apps" data-i18n="navApps">Apps</a>
+          <a class="nav__link" href="#services" data-i18n="navServices">Services</a>
+          <a class="nav__link" href="#contact" data-i18n="navContact">Contact</a>
+
+          <div class="lang" role="group" aria-label="Language">
+            <button class="lang__btn" type="button" data-lang="en" aria-pressed="true">EN</button>
+            <button class="lang__btn" type="button" data-lang="zh" aria-pressed="false">中文</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero" aria-label="Hero">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="hero__kicker" data-i18n="heroKicker">Shanghai • Global • Digital-first</p>
+            <h1 class="hero__title" data-i18n="heroTitle">
+              Mobile apps built with a trader’s global mindset
+            </h1>
+            <p class="hero__subtitle" data-i18n="heroSubtitle">
+              Hi 5 Shanghai International Trading Co. Ltd. connects markets through import & export — and builds
+              mobile applications that simplify real-world operations.
+            </p>
+
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="#apps" data-i18n="heroPrimaryCta">Explore our apps</a>
+              <a class="btn btn--ghost" href="#contact" data-i18n="heroSecondaryCta">Contact us</a>
+            </div>
+
+            <dl class="hero__stats" aria-label="Highlights">
+              <div class="stat">
+                <dt class="stat__label" data-i18n="statLabel1">Focus</dt>
+                <dd class="stat__value" data-i18n="statValue1">iOS app products</dd>
+              </div>
+              <div class="stat">
+                <dt class="stat__label" data-i18n="statLabel2">Coverage</dt>
+                <dd class="stat__value" data-i18n="statValue2">Import & export</dd>
+              </div>
+              <div class="stat">
+                <dt class="stat__label" data-i18n="statLabel3">Base</dt>
+                <dd class="stat__value" data-i18n="statValue3">Pudong, Shanghai</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="hero__art" aria-hidden="true">
+            <div class="heroCard">
+              <img
+                class="heroCard__logo"
+                src="images/Branca.png"
+                alt=""
+                width="420"
+                height="420"
+                decoding="async"
+              />
+              <div class="heroCard__glow"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title" data-i18n="aboutTitle">About Hi 5</h2>
+            <p class="section__subtitle" data-i18n="aboutSubtitle">
+              International trading expertise, with a product mindset for mobile.
+            </p>
+          </div>
+
+          <div class="grid grid--2">
+            <div class="card card--soft">
+              <h3 class="card__title" data-i18n="aboutCard1Title">Who we are</h3>
+              <p class="card__text" data-i18n="aboutCard1Text">
+                Hi 5 Shanghai International Trading Co. Ltd. is an international trading company based in Shanghai,
+                supporting import & export across global partners — with a growing focus on mobile applications and
+                digital products.
+              </p>
+            </div>
+
+            <div class="card card--soft">
+              <h3 class="card__title" data-i18n="aboutCard2Title">How we work</h3>
+              <p class="card__text" data-i18n="aboutCard2Text">
+                We bring the same discipline used in cross-border trade — clarity, risk reduction, and consistent
+                execution — to app development: practical features, clean UX, and operational reliability.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="apps" class="section section--alt">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title" data-i18n="appsTitle">Our apps</h2>
+            <p class="section__subtitle" data-i18n="appsSubtitle">
+              Product-led mobile applications designed for real work.
+            </p>
+          </div>
+
+          <div class="grid grid--3" id="appsGrid" aria-label="App list">
+            <article class="appCard">
+              <div class="appCard__icon" aria-hidden="true">H5</div>
+              <h3 class="appCard__title" data-i18n="app1Title">Hi 5 Daily</h3>
+              <p class="appCard__text" data-i18n="app1Text">
+                A lightweight productivity companion that keeps tasks, notes, and routines in sync.
+              </p>
+              <ul class="pillList" aria-label="Tags">
+                <li class="pill" data-i18n="tagIOS">iOS</li>
+                <li class="pill" data-i18n="tagProductivity">Productivity</li>
+              </ul>
+              <a class="storeBtn" href="#contact" data-i18n="storePlaceholderCta" aria-label="Request App Store link">
+                App Store link on request
+              </a>
+            </article>
+
+            <article class="appCard">
+              <div class="appCard__icon appCard__icon--accent" aria-hidden="true">TR</div>
+              <h3 class="appCard__title" data-i18n="app2Title">Trade Compass</h3>
+              <p class="appCard__text" data-i18n="app2Text">
+                Track shipments, documents, and milestones with a simple, mobile-first workflow.
+              </p>
+              <ul class="pillList" aria-label="Tags">
+                <li class="pill" data-i18n="tagIOS">iOS</li>
+                <li class="pill" data-i18n="tagOperations">Operations</li>
+              </ul>
+              <a class="storeBtn" href="#contact" data-i18n="storePlaceholderCta" aria-label="Request App Store link">
+                App Store link on request
+              </a>
+            </article>
+
+            <article class="appCard">
+              <div class="appCard__icon" aria-hidden="true">QC</div>
+              <h3 class="appCard__title" data-i18n="app3Title">QC Snapshot</h3>
+              <p class="appCard__text" data-i18n="app3Text">
+                Capture inspections, photos, and checklists quickly — built for teams on the move.
+              </p>
+              <ul class="pillList" aria-label="Tags">
+                <li class="pill" data-i18n="tagIOS">iOS</li>
+                <li class="pill" data-i18n="tagQuality">Quality</li>
+              </ul>
+              <a class="storeBtn" href="#contact" data-i18n="storePlaceholderCta" aria-label="Request App Store link">
+                App Store link on request
+              </a>
+            </article>
+
+            <article class="appCard">
+              <div class="appCard__icon appCard__icon--accent" aria-hidden="true">CX</div>
+              <h3 class="appCard__title" data-i18n="app4Title">Customer Pulse</h3>
+              <p class="appCard__text" data-i18n="app4Text">
+                Turn feedback into action with quick surveys, sentiment snapshots, and simple reporting.
+              </p>
+              <ul class="pillList" aria-label="Tags">
+                <li class="pill" data-i18n="tagIOS">iOS</li>
+                <li class="pill" data-i18n="tagAnalytics">Analytics</li>
+              </ul>
+              <a class="storeBtn" href="#contact" data-i18n="storePlaceholderCta" aria-label="Request App Store link">
+                App Store link on request
+              </a>
+            </article>
+
+            <article class="appCard">
+              <div class="appCard__icon" aria-hidden="true">ST</div>
+              <h3 class="appCard__title" data-i18n="app5Title">Stock Lite</h3>
+              <p class="appCard__text" data-i18n="app5Text">
+                A clean inventory helper for small teams — scan, count, and export summaries fast.
+              </p>
+              <ul class="pillList" aria-label="Tags">
+                <li class="pill" data-i18n="tagIOS">iOS</li>
+                <li class="pill" data-i18n="tagInventory">Inventory</li>
+              </ul>
+              <a class="storeBtn" href="#contact" data-i18n="storePlaceholderCta" aria-label="Request App Store link">
+                App Store link on request
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title" data-i18n="servicesTitle">Trading & digital services</h2>
+            <p class="section__subtitle" data-i18n="servicesSubtitle">
+              We support international trade — and build software that makes it easier.
+            </p>
+          </div>
+
+          <div class="grid grid--3">
+            <div class="card">
+              <h3 class="card__title" data-i18n="svc1Title">Import & export support</h3>
+              <p class="card__text" data-i18n="svc1Text">
+                Coordination across suppliers, documents, and timelines — structured for predictable outcomes.
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="card__title" data-i18n="svc2Title">Supplier sourcing</h3>
+              <p class="card__text" data-i18n="svc2Text">
+                Identify reliable partners and align requirements, pricing, and product specifications.
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="card__title" data-i18n="svc3Title">Mobile app development</h3>
+              <p class="card__text" data-i18n="svc3Text">
+                Product thinking, clean UX, and operational tooling — built for teams and customers worldwide.
+              </p>
+            </div>
+          </div>
+
+          <div class="why">
+            <div class="why__copy">
+              <h3 class="why__title" data-i18n="whyTitle">Why work with Hi 5</h3>
+              <p class="why__text" data-i18n="whyText">
+                We combine cross-border execution with a software builder’s perspective — practical, measurable,
+                and designed to scale.
+              </p>
+            </div>
+            <ul class="checkList" aria-label="Benefits">
+              <li class="checkList__item" data-i18n="whyBullet1">Bilingual communication (EN / 中文)</li>
+              <li class="checkList__item" data-i18n="whyBullet2">Operational clarity and risk reduction</li>
+              <li class="checkList__item" data-i18n="whyBullet3">Mobile-first tools for real workflows</li>
+              <li class="checkList__item" data-i18n="whyBullet4">Shanghai-based, globally oriented</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section--alt">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title" data-i18n="contactTitle">Contact</h2>
+            <p class="section__subtitle" data-i18n="contactSubtitle">
+              Tell us what you’re building — we’ll reply quickly.
+            </p>
+          </div>
+
+          <div class="grid grid--2">
+            <div class="card card--soft">
+              <h3 class="card__title" data-i18n="contactDetailsTitle">Details</h3>
+              <p class="card__text">
+                <strong data-i18n="companyName">Hi 5 Shanghai International Trading Co. Ltd.</strong><br />
+                <span data-i18n="contactEmailLabel">Email</span>:
+                <a href="mailto:contact@hiwu.io">contact@hiwu.io</a>
+              </p>
+
+              <div class="addressBlock" aria-label="Office address">
+                <p class="addressBlock__label" data-i18n="addressLabel">Office</p>
+                <p class="addressBlock__text" data-i18n="addressEn">
+                  Room 127, Building 5, No. 1499-1, Shangchuan Road, Pudong New Area, Shanghai
+                </p>
+                <p class="addressBlock__text" data-i18n="addressZh">
+                  上海市浦东新区上川路1499-1号5幢127室
+                </p>
+              </div>
+            </div>
+
+            <form class="form" id="contactForm" novalidate>
+              <div class="form__row">
+                <label class="label" for="name" data-i18n="formName">Name</label>
+                <input class="input" id="name" name="name" autocomplete="name" required />
+              </div>
+              <div class="form__row">
+                <label class="label" for="email" data-i18n="formEmail">Email</label>
+                <input
+                  class="input"
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+              <div class="form__row">
+                <label class="label" for="message" data-i18n="formMessage">Message</label>
+                <textarea class="textarea" id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button class="btn btn--primary" type="submit" data-i18n="formSubmit">Send</button>
+              <p class="form__hint" id="formHint" role="status" aria-live="polite"></p>
+              <p class="form__fineprint" data-i18n="formFineprint">
+                This form is frontend-only for now. If you prefer, email us directly.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div class="footer__brand">
+          <img
+            class="footer__logo"
+            src="images/Preta2.png"
+            alt="Hi 5 logo"
+            width="44"
+            height="44"
+            decoding="async"
+          />
+          <div>
+            <div class="footer__name">Hi 5</div>
+            <div class="footer__meta" data-i18n="footerMeta">
+              Shanghai • International Trading • Mobile Apps
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__links" aria-label="Footer links">
+          <a class="footer__link" href="#about" data-i18n="navAbout">About</a>
+          <a class="footer__link" href="#apps" data-i18n="navApps">Apps</a>
+          <a class="footer__link" href="#services" data-i18n="navServices">Services</a>
+          <a class="footer__link" href="#contact" data-i18n="navContact">Contact</a>
+        </div>
+
+        <div class="footer__small">
+          <div class="lang lang--footer" role="group" aria-label="Language">
+            <button class="lang__btn" type="button" data-lang="en" aria-pressed="true">EN</button>
+            <button class="lang__btn" type="button" data-lang="zh" aria-pressed="false">中文</button>
+          </div>
+          <div class="footer__copy" data-i18n="footerCopy">
+            © <span id="year"></span> Hi 5 Shanghai International Trading Co. Ltd. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
