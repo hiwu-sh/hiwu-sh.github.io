@@ -271,33 +271,6 @@
     });
   }
 
-  // Frontend-only contact form validation + hint
-  function initForm() {
-    const form = $("#contactForm");
-    const hint = $("#formHint");
-    if (!form || !hint) return;
-
-    const isValidEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      const lang = document.documentElement.lang.startsWith("zh") ? "zh" : "en";
-      const dict = i18n[lang] || i18n.en;
-
-      const name = String(form.name?.value || "").trim();
-      const email = String(form.email?.value || "").trim();
-      const message = String(form.message?.value || "").trim();
-
-      if (!name || !isValidEmail(email) || !message) {
-        hint.textContent = dict.formError;
-        return;
-      }
-
-      hint.textContent = dict.formOk;
-      form.reset();
-    });
-  }
-
   function initLanguageButtons(initialLang) {
     $$(".lang__btn").forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -313,7 +286,6 @@
   document.addEventListener("DOMContentLoaded", () => {
     const initialLang = getInitialLang();
     initMenu();
-    initForm();
     initLanguageButtons(initialLang);
   });
 })();

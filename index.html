@@ -280,7 +280,7 @@
             </p>
           </div>
 
-          <div class="grid grid--2">
+          <div class="contactLayout">
             <div class="card card--soft">
               <h3 class="card__title" data-i18n="contactDetailsTitle">Details</h3>
               <p class="card__text">
@@ -299,33 +299,6 @@
                 </p>
               </div>
             </div>
-
-            <form class="form" id="contactForm" novalidate>
-              <div class="form__row">
-                <label class="label" for="name" data-i18n="formName">Name</label>
-                <input class="input" id="name" name="name" autocomplete="name" required />
-              </div>
-              <div class="form__row">
-                <label class="label" for="email" data-i18n="formEmail">Email</label>
-                <input
-                  class="input"
-                  id="email"
-                  name="email"
-                  type="email"
-                  autocomplete="email"
-                  required
-                />
-              </div>
-              <div class="form__row">
-                <label class="label" for="message" data-i18n="formMessage">Message</label>
-                <textarea class="textarea" id="message" name="message" rows="5" required></textarea>
-              </div>
-              <button class="btn btn--primary" type="submit" data-i18n="formSubmit">Send</button>
-              <p class="form__hint" id="formHint" role="status" aria-live="polite"></p>
-              <!--p class="form__fineprint" data-i18n="formFineprint">
-                This form is frontend-only for now. If you prefer, email us directly.
-              </p-->
-            </form>
           </div>
         </div>
       </section>
