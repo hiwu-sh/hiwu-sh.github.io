@@ -14,7 +14,7 @@
       heroKicker: "Shanghai • Global • Digital-first",
       heroTitle: "Mobile apps built with a trader’s global mindset",
       heroSubtitle:
-        "Hi 5 Shanghai International Trading Co. Ltd. connects markets through import & export — and builds mobile applications that simplify real-world operations.",
+        "We help people move products across borders, and we build iOS apps that make day-to-day work simpler.",
       heroPrimaryCta: "Explore our apps",
       heroSecondaryCta: "Contact us",
 
@@ -29,10 +29,10 @@
       aboutSubtitle: "International trading expertise, with a product mindset for mobile.",
       aboutCard1Title: "Who we are",
       aboutCard1Text:
-        "Hi 5 Shanghai International Trading Co. Ltd. is an international trading company based in Shanghai, supporting import & export across global partners — with a growing focus on mobile applications and digital products.",
+        "Hi 5 Shanghai International Trading Co. Ltd. is an international trading company based in Shanghai. We support import and export with global partners, and we build mobile applications and digital products.",
       aboutCard2Title: "How we work",
       aboutCard2Text:
-        "We bring the same discipline used in cross-border trade — clarity, risk reduction, and consistent execution — to app development: practical features, clean UX, and operational reliability.",
+        "We value clear communication, careful execution, and practical results. That same approach guides how we build apps: useful features, clean UX, and reliable performance.",
 
       appsTitle: "Our apps",
       appsSubtitle: "Product-led mobile applications designed for real work.",
@@ -41,11 +41,11 @@
       app2Title: "Snap! Language Assistant",
       app2Text: "A language assistant that translates and transcribes conversations from multiple languages in real time.",
     //   app3Title: "QC Snapshot",
-    //   app3Text: "Capture inspections, photos, and checklists quickly — built for teams on the move.",
+    //   app3Text: "Capture inspections, photos, and checklists quickly. Built for teams on the move.",
     //   app4Title: "Customer Pulse",
     //   app4Text: "Turn feedback into action with quick surveys, sentiment snapshots, and simple reporting.",
     //   app5Title: "Stock Lite",
-    //   app5Text: "A clean inventory helper for small teams — scan, count, and export summaries fast.",
+    //   app5Text: "A clean inventory helper for small teams. Scan, count, and export summaries fast.",
       tagIOS: "iOS",
       tagProductivity: "Productivity",
       tagOperations: "Operations",
@@ -55,23 +55,23 @@
       storePlaceholderCta: "App Store link coming soon!",
 
       servicesTitle: "Trading & digital services",
-      servicesSubtitle: "We support international trade — and build software that makes it easier.",
+      servicesSubtitle: "We support international trade and we build software that makes it easier.",
       svc1Title: "Import & export support",
-      svc1Text: "Coordination across suppliers, documents, and timelines — structured for predictable outcomes.",
+      svc1Text: "We help coordinate suppliers, documents, and timelines so projects stay on track.",
       svc2Title: "Supplier sourcing",
       svc2Text: "Identify reliable partners and align requirements, pricing, and product specifications.",
       svc3Title: "Mobile app development",
-      svc3Text: "Product thinking, clean UX, and operational tooling — built for teams and customers worldwide.",
+      svc3Text: "Product thinking, clean UX, and practical tooling for teams and customers worldwide.",
       whyTitle: "Why work with Hi 5",
       whyText:
-        "We combine cross-border execution with a software builder’s perspective — practical, measurable, and designed to scale.",
+        "You get a team that understands cross-border execution and also knows how to ship software. Practical, measurable, and designed to scale.",
       whyBullet1: "Bilingual communication (EN / 中文)",
       whyBullet2: "Operational clarity and risk reduction",
       whyBullet3: "Mobile-first tools for real workflows",
       whyBullet4: "Shanghai-based, globally oriented",
 
       contactTitle: "Contact",
-      contactSubtitle: "Tell us what you’re building — we’ll reply quickly.",
+      contactSubtitle: "Tell us what you are building and we will reply quickly.",
       contactDetailsTitle: "Details",
       companyName: "Hi 5 Shanghai International Trading Co. Ltd.",
       contactEmailLabel: "Email",
@@ -88,7 +88,7 @@
       footerCopy: "© {year} Hi 5 Shanghai International Trading Co. Ltd. All rights reserved.",
 
       formError: "Please fill in your name, a valid email, and a message.",
-      formOk: "Thanks — please email us at contact@hiwu.io (form sending is not connected yet).",
+      formOk: "Thanks. Please email us at contact@hiwu.io (form sending is not connected yet).",
       menuOpen: "Open menu",
       menuClose: "Close menu",
     },
@@ -103,7 +103,7 @@
       heroKicker: "上海 • 全球 • 数字优先",
       heroTitle: "以全球贸易视角打造移动应用",
       heroSubtitle:
-        "Hi 5 Shanghai International Trading Co. Ltd. 通过进出口连接全球市场，并打造让真实业务更高效的移动应用。",
+        "我们协助产品跨境流通，同时打造让日常工作更轻松的 iOS 应用。",
       heroPrimaryCta: "查看我们的应用",
       heroSecondaryCta: "联系我们",
 
@@ -118,10 +118,10 @@
       aboutSubtitle: "国际贸易经验 + 移动产品思维。",
       aboutCard1Title: "我们是谁",
       aboutCard1Text:
-        "Hi 5 Shanghai International Trading Co. Ltd. 总部位于上海，是一家国际贸易公司，提供进出口相关支持，并持续聚焦移动应用与数字化产品。",
+        "Hi 5 Shanghai International Trading Co. Ltd. 总部位于上海，是一家国际贸易公司。我们提供进出口相关支持，同时持续打造移动应用与数字化产品。",
       aboutCard2Title: "我们的方法",
       aboutCard2Text:
-        "我们将跨境贸易中对清晰、风险控制与稳定交付的要求带入应用开发：实用功能、清爽体验与可靠运行。",
+        "我们重视清晰沟通、细致执行和务实结果。这同样体现在应用开发上：实用功能、清爽体验和稳定表现。",
 
       appsTitle: "应用产品",
       appsSubtitle: "面向真实场景的产品化移动应用。",
@@ -146,13 +146,13 @@
       servicesTitle: "贸易与数字化服务",
       servicesSubtitle: "我们支持国际贸易，也打造让流程更轻松的软件。",
       svc1Title: "进出口支持",
-      svc1Text: "覆盖供应商、单证与时间节点的协同，让结果更可预期。",
+      svc1Text: "协同供应商、单证与时间节点，让项目更顺畅、更可控。",
       svc2Title: "供应商寻源",
       svc2Text: "筛选可靠合作方，匹配需求、价格与产品规格。",
       svc3Title: "移动应用开发",
-      svc3Text: "产品思维、清爽体验与运营工具，面向全球用户与团队。",
+      svc3Text: "产品思维、清爽体验与实用工具，面向全球用户与团队。",
       whyTitle: "为什么选择 Hi 5",
-      whyText: "将跨境执行能力与软件产品视角结合，务实、可衡量、可扩展。",
+      whyText: "你将获得既懂跨境执行、也能持续交付软件产品的团队。务实、可衡量、可扩展。",
       whyBullet1: "双语沟通（EN / 中文）",
       whyBullet2: "流程清晰、风险可控",
       whyBullet3: "移动优先的业务工具",
